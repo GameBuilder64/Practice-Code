@@ -1,0 +1,134 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: red;
+
+}
+h2{
+    color:wheat;
+}
+header{
+    background:black;
+    background-image: url("../images/resize\ thanos.png");
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    height: 400;
+    padding: 20px;
+}
+
+header .logo a{
+    background-image: url("../images/CasLaceTech\ Logo.png");
+    background-size: 120px;
+    background-repeat: none;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999999999999999;
+    top: -40px;
+    width: 120px;
+}
+section{
+    background: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div 
+{
+    background: cornsilk;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:  none;
+}
+
+li{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+li:first-child{
+    margin-left: 0;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.features figure
+{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.features figure img
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: gray 0px 0px 10px;
+    width: 100px;
+
+}
+
+.feature-box{
+    display: flex;
+}
+.feature-box.sales div{
+    background: gray;
+    width: 100%;
+    margin: 1px;
+}
+.feature-box.closeouts div{
+    background: red;
+}
+
+
+footer{
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+/*
+@media screen and (max-width: 800px)
+{
+    .features {
+        background: pink;
+    }  
+
+}
+
+
+
+@media screen and (max-width: 400px)
+{
+    .features {
+        background: red;
+    }  
+
+}
+
+*/
